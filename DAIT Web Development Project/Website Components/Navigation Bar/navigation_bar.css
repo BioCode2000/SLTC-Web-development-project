@@ -1,0 +1,217 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#entire-component {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+
+}
+#sub-div-complex {
+    display: flex;
+}
+#sub-div-single {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#account-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+
+}
+#for-sign-in-button {
+    margin-right: 20px;
+}
+#account-icon {
+    margin-right: 5px;
+}
+#sub-div-outer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#sub-div-outer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+   
+}
+#navigation-links {
+    display: flex;
+    text-align: center;
+}
+#navigation-links li {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 10px;
+   
+}
+#navigation-links li a {
+    font-size: 17px;
+    margin-left: 15px;
+    color: black;
+}
+#logo-img {
+    width: 100px;
+    height: auto;
+}
+/* #sign-in {
+    background-color: rgb(143, 215, 33);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+
+} */
+.sub-nav {
+    width: 100%;
+    background-color: rgb(188, 235, 118);
+}
+#sub-nav-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sub-nav-link li {
+    padding-top: 3px;
+    padding-bottom: 3px; 
+}
+#sub-nav-link li a {
+    color: black;
+    display: inline-block;
+    font-weight: 200;
+    padding: 7px;   
+}
+.home-page-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+}
+.image-slideshow {
+    width: 94%;
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.image-slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.poster {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.poster h1 {
+    color: rgb(242, 6, 6);
+}
+.product-by-relationship {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.product-by-relationship-outer-wrapper {
+    width: 94%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 31% 31% 31%;
+    column-gap: 10px;
+}
+.column-1 {
+
+}
+
+.product-by-relationship-outer-wrapper .column-1 .sqr-11 {
+    background-color: aquamarine;
+    height: 300px;
+    border: none;
+    border-radius: 9px;
+    overflow: hidden;
+    
+}
+.column-1 .sqr-11 img {
+    width: 100%;
+    height: 100%;
+}
+.product-by-relationship-outer-wrapper .column-1 .sqr-12 {
+    background-color: rgb(72, 211, 236);
+    height: 300px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.column-1 .sqr-12 img {
+    width: 100%;
+    height: 100%;
+}
+.product-by-relationship-outer-wrapper .column-2 .sqr-21 {
+    background-color: rgb(253, 147, 232);
+    height: 350px;
+    border: none;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.column-2 .sqr-21 img {
+    width: 100%;
+    height: 100%;
+}
+.product-by-relationship-outer-wrapper .column-2 .sqr-22 {
+    background-color: rgb(246, 185, 121);
+    height: 250px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.column-2 .sqr-22 img {
+    width: 100%;
+    height: 100%;
+}
+.product-by-relationship-outer-wrapper .column-3 .sqr-31 {
+    background-color: rgb(217, 145, 240);
+    height: 300px;
+    border: none;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.column-3 .sqr-31 img {
+    width: 100%;
+    height: 100%;
+}
+.product-by-relationship-outer-wrapper .column-3 .sqr-32 {
+    background-color: rgb(241, 128, 128);
+    height: 300px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.column-3 .sqr-32 img {
+    width: 100%;
+    height: 100%;
+}
